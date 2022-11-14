@@ -1,11 +1,12 @@
 .App {
-  padding: 30px;
   height: 100vh;
   background-color: floralwhite;
+  overflow: auto;
 
   .container {
     display: flex;
     flex-direction: column;
+    padding: 30px;
 
     .todo {
       align-items: center;
